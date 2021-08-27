@@ -12,8 +12,10 @@ class Question {
 
     this.button = createButton('Submit');
     this.button.class("btn");
-    //Create elements for One question (h3) and 4 options (h4)
 
+    //Create elements for One question (h3) and 4 options (h4)
+    this.que=createElement("h3");
+    this.que.style("color:brown;font-family:sansserif;");
 
 
 
@@ -42,6 +44,8 @@ class Question {
     //Create html() and position() for each question, input and answers.
     this.answer.position((width*3)/4-100,height-150);
 
+    this.que.html("Question 1:");
+    this.que.position(width/4-100,100);
 
 
     this.input1.position(width/4-100, height-150);
