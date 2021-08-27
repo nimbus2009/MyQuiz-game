@@ -44,8 +44,8 @@ class Question {
     //Create html() and position() for each question, input and answers.
     this.answer.position((width*3)/4-100,height-150);
 
-    this.que.html("Question 1:");
-    this.que.position(width/4-100,100);
+    this.que.html("Question 1:Which of the following is the right substance used to detect CO2 ?");
+    this.que.position(width/4,100);
 
 
     this.input1.position(width/4-100, height-150);
