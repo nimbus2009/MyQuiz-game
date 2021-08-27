@@ -3,11 +3,13 @@ class Question {
   constructor() {
     this.title = createElement('h1')
     this.input1 = createInput("Enter Your Name Here....");
+    this.input1.class("nameinput");
    //Create a input box to enter the number
 
 
 
     this.button = createButton('Submit');
+    this.button.class("btn");
     //Create elements for One question (h3) and 4 options (h4)
 
 
