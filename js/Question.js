@@ -1,12 +1,14 @@
 class Question {
 
   constructor() {
-    this.title = createElement('h1')
+    this.title = createElement('h1');
+
     this.input1 = createInput("Enter Your Name Here....");
-    this.input1.class("nameinput");
+    this.input1.class("input");
+
    //Create a input box to enter the number
-
-
+    this.answer = createInput("Enter Correct Option Here...");
+    this.answer.class("input");
 
     this.button = createButton('Submit');
     this.button.class("btn");
@@ -38,11 +40,11 @@ class Question {
 
 
     //Create html() and position() for each question, input and answers.
+    this.answer.position((width*3)/4-100,height-150);
 
 
 
-
-    this.input1.position(width/4, height-150);
+    this.input1.position(width/4-100, height-150);
     this.button.position(width/2, height-100);
 
     // Add a mousepressed action when the button is clicked Display the this.message

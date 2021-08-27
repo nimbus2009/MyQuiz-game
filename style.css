@@ -9,8 +9,8 @@ canvas{
   border: 2px solid black;
 }
 
-.nameinput{
-  width:200px;
+.input{
+  width:250px;
   height: 15px;
   border: 4px solid orange;
   border-radius: 7px;
