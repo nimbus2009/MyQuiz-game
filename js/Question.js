@@ -34,7 +34,7 @@ class Question {
 
   display(){
     this.title.html("MyQuiz Game");
-    this.title.position(350, 0);
+    this.title.position(width/2-75, 0);
 
 
     //Create html() and position() for each question, input and answers.
@@ -42,8 +42,8 @@ class Question {
 
 
 
-    this.input1.position(150, 230);
-    this.button.position(290, 300);
+    this.input1.position(width/4, height-150);
+    this.button.position(width/2, height-100);
 
     // Add a mousepressed action when the button is clicked Display the this.message
     this.button.mousePressed(()=>{

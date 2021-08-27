@@ -6,7 +6,7 @@ var question, contestant, quiz;
 
 
 function setup(){
-  canvas = createCanvas(850,400);
+  canvas = createCanvas(windowWidth-45,windowHeight-45);
   database = firebase.database();
   quiz = new Quiz();
   quiz.start();
