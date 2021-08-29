@@ -1,12 +1,12 @@
 class Quiz {
-  constructor(){}
+  constructor(){
 
-  start(){
-    
-      question = new Question()
-      question.display();
-    
   }
-
-  
+  start(){
+    question = new Question()
+    question.display();
+  }
+  play(){
+    
+  }  
 }
